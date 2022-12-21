@@ -1,0 +1,49 @@
+/* Logo */
+img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Auto layout */
+.logo_container {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+    
+    gap: 10px;
+
+    position: relative;
+    /* width: 190px;
+    height: 42px;   */
+}
+
+.logo_img {
+    /* Logo Image */
+    width: 32px;
+    height: 42px;
+
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%; 
+}
+
+.logo_title {
+
+    width: 128px;
+    height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+
+    /* identical to box height */
+    letter-spacing: 0.145em;
+    color: #FFFFFF;
+}

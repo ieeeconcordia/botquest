@@ -1,0 +1,32 @@
+@import '../../fonts.css';
+
+.register_btn_div {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 25px;
+    gap: 10px;
+
+    position: relative;
+    width: 141px;
+    height: 43px;
+
+    background: #000000;
+    text-decoration: none;
+}
+
+.register_btn {
+
+    width: 91px;
+    height: 19px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.25em;
+
+    color: #FFFFFF;
+}

@@ -1,3 +1,110 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  /* Large Screens > 1280px */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 40px;
+
+  position: relative;
+  width: 100%;
+
+  background: linear-gradient(90deg, #282828 0%, #353535 50%, #282828 100%);
+}
+
+.black__bg {
+
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(circle at 3% 19%, rgba(0, 45, 140, 1) 0%, rgba(10, 10, 10, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 3% 19%, rgba(0, 45, 140, 1) 0%, rgba(10, 10, 10, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 3% 19%, rgba(0, 45, 140, 1) 0%, rgba(10, 10, 10, 1) 100%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 3% 19%, rgba(0, 45, 140, 1) 0%, rgba(10, 10, 10, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 3% 19%, rgba(0, 45, 140, 1) 0%, rgba(10, 10, 10, 1) 100%);
+
+}
+
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clop: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.section__margin {
+  margin: 4rem 6rem;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@media screen and (max-width: 700px) {
+  
+  .section__padding {
+    padding: 4rem;
+  }
+  
+  .section__margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+  
+  .section__margin {
+    margin: 4rem 2rem;
+  }
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+/*-------------------------------*/
+
 .App {
   text-align: center;
 }
@@ -36,3 +143,7 @@
     transform: rotate(360deg);
   }
 }
+
+/*------------ Imports -------------*/
+
+@import "fonts.css";
