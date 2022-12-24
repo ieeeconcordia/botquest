@@ -8,7 +8,8 @@ const App = () => {
   return (
     <div className='App'>
       <Navbar itemNames={['Who Are We?', 'WarHacks']}/>
-      
+      <Header />
+      <WhatWarhacks />
       {/* <div>
         
         <Header />

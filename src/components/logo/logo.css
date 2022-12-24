@@ -11,12 +11,12 @@ img {
     flex-direction: row;
     align-items: center;
     padding: 0px 10px;
-    
+    text-decoration: none;
     gap: 10px;
 
     position: relative;
-    /* width: 190px;
-    height: 42px;   */
+    width: 190px;
+    height: 42px;  
 }
 
 .logo_img {

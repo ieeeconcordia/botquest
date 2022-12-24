@@ -1,0 +1,55 @@
+.wiw_container {
+    width: 100%;
+    height: fit-content;
+    padding: 10px 30px;
+}
+
+.wiw_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 150px;
+    gap: 45px;
+
+    background: linear-gradient(90deg, #8B8B8B 0%, #B1B1B1 53.13%, #8B8B8B 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.wiw_card_detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.wiw_card_detail_title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 69px;
+    text-align: center;
+    letter-spacing: 0.145em;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.wiw_card_detail_text {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.145em;
+    color: #000000;
+}
+
+.wiw_card_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
