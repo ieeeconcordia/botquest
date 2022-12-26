@@ -15,7 +15,7 @@ const WhatWarhacks = () => {
             What is Warhacks?
           </h1>
           <p className='wiw_card_detail_text'>
-            Warhacks is an introductory hardware Hackathon designed specifically for you. 
+            Warhacks is an introductory hardware Hackathon designed specifically for you. <br /> <br/>
             Come spend the day with us, and you will get to build your robot from scratch.
           </p>
         </div>
