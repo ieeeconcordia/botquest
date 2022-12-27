@@ -1,0 +1,113 @@
+.testimony_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 24px;
+    gap: 24px;
+
+    background: #FFCAAF;
+}
+
+.testimony_text_container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 90px;
+    gap: 50px;
+}
+
+.testimony_title {
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 27px;
+
+    /* identical to box height */
+    letter-spacing: 0.015em;
+
+    color: #404B53;
+}
+
+.testimony_text {
+    
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    width: 700px;
+    padding-bottom: 50px;
+
+    color: #5C656C;
+}
+
+.testimony_witness {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: fit-content;
+    max-width: 250px;
+}
+
+.testimony_witness_text {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.145em;
+    width: fit-content;
+
+    color: #5C656C;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .testimony_title {
+        font-size: 22px;
+    }
+
+    .testimony_text_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px;
+        gap: 30px;
+    }
+    
+    .testimony_text {
+        width: auto;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.145em;
+        padding-bottom: 0;
+    }
+
+    .testimony_witness {
+        gap: 16px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 820px) {
+    
+    .testimony_text_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:24px;
+        
+    }
+    
+    .testimony_text {
+        width: auto;
+        padding-bottom: 0;
+    }
+}

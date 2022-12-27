@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css'
 
-import { Features, Footer, Header, WhatWarhacks} from './containers';
+import { CardSection, Footer, Header, WhatWarhacks, Testimony, CTA} from './containers';
 import { Brand, Logo, NavbarItem, Register, Navbar} from './components';
 
 const App = () => {
@@ -10,14 +10,10 @@ const App = () => {
       <Navbar itemNames={['Who Are We?', 'WarHacks']}/>
       <Header />
       <WhatWarhacks />
-      {/* <div>
-        
-        <Header />
-      </div>
-      <Brand />
-      <WhatWarhacks />
-      <Features />
-      <Footer /> */}
+      <CardSection />
+      <Testimony />
+      <CTA />
+      <Footer />
     </div>
   )
 }

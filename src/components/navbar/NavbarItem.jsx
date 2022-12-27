@@ -1,10 +1,10 @@
 import React from 'react';
 import './navbar.css';
 
-const NavbarItem = ({item_name}) => {
+const NavbarItem = (props) => {
   return (
-    <a className='navbar_item_div' href=''>
-        <p className='navbar_item'>{item_name}</p>
+    <a className='navbar_item_div' href={props.href}>
+        <p className='navbar_item'>{props.item_name}</p>
     </a>
   )
 }

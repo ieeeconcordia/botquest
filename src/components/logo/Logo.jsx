@@ -4,7 +4,7 @@ import Logo_img from '../../assets/img/logo-white.png';
 
 const Logo = () => {
   return (
-    <a className='logo_container' href=''>
+    <a className='logo_container' href='https://ieeeconcordia.ca/'>
         <img src={Logo_img} className='logo_img'/>
         
         <div className='logo_title'>
