@@ -1,6 +1,6 @@
 import React from 'react'
 import './testimony.css'
-import Alex from '../../assets/img/Alex.jpg'
+import Lina from '../../assets/img/Lina.JPG'
 
 const Testimony = () => {
   return (
@@ -15,7 +15,7 @@ const Testimony = () => {
           I was introduced to Warhacks in CEGEP and it's what led me to pursue a program in Engineering.
           If you're interested in robotics, try it out! "</p>
           <div className='testimony_witness'>
-              <img src={Alex} alt="Testimony person" style={{maxWidth: "175px", height: "auto", borderRadius: "130px", boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"}}></img>
+              <img src={Lina} alt="Testimony person" style={{maxWidth: "175px", height: "auto", borderRadius: "130px", boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"}}></img>
               <p className='testimony_witness_text'>- Lina Ismail, presi</p>
           </div>
         </div>
