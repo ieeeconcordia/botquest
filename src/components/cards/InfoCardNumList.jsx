@@ -16,7 +16,7 @@ const InfoCardNumList = (props) => {
       </div>
 
       <div className="infocard_details">
-          <div className="infocard_title">{props.cardTitle}</div>
+          <div className="infocard_title">It's as easy as <br/> 1-2-3</div>
           <div className="infocard_list">
             <ol>
               <li>Fill the registration form to reserve your place</li>
