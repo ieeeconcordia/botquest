@@ -4,3 +4,4 @@ export { default as WhatWarhacks } from './WhatWarhacks/Whatwarhacks';
 export { default as CardSection } from './cards/CardSection';
 export { default as Testimony } from './testimony/Testimony';
 export { default as CTA } from './cta/CTA';
+export { default as Agenda } from './agenda/Agenda'

@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css'
 
-import { CardSection, Footer, Header, WhatWarhacks, Testimony, CTA} from './containers';
-import { Brand, Logo, NavbarItem, Register, Navbar} from './components';
+import { CardSection, Footer, Header, WhatWarhacks, Testimony, CTA, Agenda} from './containers';
+import {Navbar} from './components';
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
       <Header />
       <WhatWarhacks />
       <CardSection />
+      <Agenda />
       <Testimony />
       <CTA />
       <Footer />
