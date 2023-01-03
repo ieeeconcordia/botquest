@@ -38,7 +38,7 @@ const CTA = () => {
                 href=""
 
             /> */}
-            <a className='cta_secondary_call' href='#'>Previous Warhacks</a>
+            <a className='cta_secondary_call' href='https://www.facebook.com/media/set/?set=a.2157921424286586&type=3'>Previous Warhacks</a>
         </div>
         
     </div>
