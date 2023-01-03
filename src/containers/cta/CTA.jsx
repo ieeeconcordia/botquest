@@ -21,14 +21,14 @@ const CTA = () => {
         <div className='cta_secondary'>
             <p className='cta_main_text'>Challenges will be done, in teams of 3 or 4.
             You can invite your friends or we can team you up.</p>
-            <h2 className='cta_secondary_call'>Invite your friends</h2>
+            <h2 className='cta_secondary_call' style={{textDecoration: "none"}}>Invite your friends</h2>
         </div>
 
         <div style={{width: "50%", height: "0", border: "1px solid rgba(240, 240, 241, 0.7)"}}></div>
 
         <div className='cta_secondary'>
             <p className='cta_main_text'>You can also check out previous Warhacks below!</p>
-            <Register 
+            {/* <Register 
                 text='Previous Warhacks'
                 background='#FFFFFF'
                 color="#000000"
@@ -36,7 +36,9 @@ const CTA = () => {
                 borderBottom="2px solid #000000"
                 margin='10px'
                 href=""
-            />
+
+            /> */}
+            <a className='cta_secondary_call' href='#'>Previous Warhacks</a>
         </div>
         
     </div>
