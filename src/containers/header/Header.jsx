@@ -13,6 +13,7 @@ const Header = () => {
         text='Register Now!'
         background='#63BAFF'
         margin= '50px 0'
+        href= "https://docs.google.com/forms/d/e/1FAIpQLScV9RSNqekgSI8L-rZKJTPsq0vgwg_nYEdyXl-eUcARq4l6oA/viewform?usp=sf_link"
       />
     </div>
   )

@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 48px 0;
-    margin: auto;
+    justify-content: center;
+    padding: 48px 24px;
     gap: 30px;
 
     background: #E2DDDA;
@@ -25,14 +25,13 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 26px;
     text-align: center;
     letter-spacing: 0.145em;
     color: #5C656C;
 
-    padding-top: 10px;
     width: 75%;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
