@@ -16,10 +16,10 @@ const InfoCardNumList = (props) => {
       </div>
 
       <div className="infocard_details">
-          <div className="infocard_title">It's as easy as <br/> 1-2-3</div>
+          <div className="infocard_title">It's as easy as 1-2-3</div>
           <div className="infocard_list">
             <ol>
-              <li>Fill the registration form to reserve your place</li>
+              <li>Fill the registration form to reserve your place.</li>
               <li>Share with friends if you want to.</li>
               <li>Come at Concordia on february 11th, ready to learn and have a good time.</li>
             </ol>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css'
 
-import { CardSection, Footer, Header, WhatWarhacks, Testimony, CTA, Agenda} from './containers';
+import { CardSection, Footer, Header, WhatWarhacks, Testimony, CTA, Agenda, Slideshow} from './containers';
 import {Navbar} from './components';
 
 const App = () => {
@@ -15,6 +15,7 @@ const App = () => {
       <Testimony />
       <CTA />
       <Footer />
+      {/* <Slideshow /> */}
     </div>
   )
 }
