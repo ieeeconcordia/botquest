@@ -9,7 +9,7 @@ const WhatWarhacks = () => {
       </h1>
       <div style={{border: "1px solid #8D7365", width: '230px', height:'0px'}}></div>
       <p className='wiw_card_detail_text'>
-      Warhacks is an introductory hardware Hackathon designed specifically for cegep students. 
+      Warhacks is an introductory hardware Hackathon designed specifically for CEGEP students. 
       Come spend the day with us, and you will get to build your first robot from scratch.
       </p>
     </div>
