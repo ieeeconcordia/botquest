@@ -21,7 +21,7 @@ const InfoCardNumList = (props) => {
             <ol>
               <li>Fill the registration form to reserve your place.</li>
               <li>Share with friends if you want to.</li>
-              <li>Come at Concordia on february 11th, ready to learn and have a good time.</li>
+              <li>Come to Concordia on February 11th, ready to learn and have a good time.</li>
             </ol>
           </div>
       </div>

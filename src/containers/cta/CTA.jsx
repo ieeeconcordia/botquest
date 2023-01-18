@@ -13,13 +13,14 @@ const CTA = () => {
                 text='Register Now!'
                 background='#63BAFF'
                 margin='10px'
+                href= "https://docs.google.com/forms/d/e/1FAIpQLScV9RSNqekgSI8L-rZKJTPsq0vgwg_nYEdyXl-eUcARq4l6oA/viewform?usp=sf_link"
             />
         </div>
 
         <div style={{width: "50%", height: "0", border: "1px solid rgba(240, 240, 241, 0.7)"}}></div>
 
         <div className='cta_secondary'>
-            <p className='cta_main_text'>Challenges will be done, in teams of 3 or 4.
+            <p className='cta_main_text'>Challenges will be done in teams of 3 or 4.
             You can invite your friends or we can team you up.</p>
             <h2 className='cta_secondary_call' >Invite your friends</h2>
         </div>
