@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <div className="header_container">
       <h3 className="header_surtitle">IEEE Concordia invites you to</h3>
-      <h1 className="header_title">WARHACKS</h1>
-      <h3 className="header_surtitle">On January 28th, 2024</h3>
+      <h1 className="header_title">BOTQUEST</h1>
+      <h3 className="header_surtitle">On November 15th, 2024</h3>
       <h3 className="header_subtitle">Learn how to build robots!</h3>
       <Register
         text="Register Now!"
