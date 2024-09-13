@@ -16,7 +16,7 @@ import Recap from "./containers/recap/Recap";
 const App = () => {
   return (
     <div className="App">
-      <Navbar itemNames={["Who Are We?", "WarHacks"]} />
+      <Navbar itemNames={["Who Are We?", "BotQuest"]} />
       <Header />
       <WhatWarhacks />
       <CardSection />
