@@ -22,12 +22,18 @@
 }
 
 .agenda_text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: fit-content;
+
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 26px;
-    text-align: center;
+    text-align: left;
     letter-spacing: 0.145em;
     
     color: #5C656C;
@@ -35,10 +41,10 @@
 
 .agenda_text_line {
 
-    margin: 15px auto;
-    border: 1px solid #617181;
-    width: 1px;
-    height: 15px;
+    margin: 20px 20px;
+    border: 0px solid #617181;
+    width: 15px;
+    height: 1px;
     
 }
 

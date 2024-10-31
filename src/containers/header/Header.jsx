@@ -13,7 +13,7 @@ const Header = () => {
         text="Register Now!"
         background="#63BAFF"
         margin="50px 0"
-        href="https://forms.gle/3Uh1p2wazgBvAqw88"
+        href="https://forms.gle/k3ceriUEZ3Gczz7C6"
       />
     </div>
   );

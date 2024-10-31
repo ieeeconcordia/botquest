@@ -7,8 +7,8 @@
     padding: 40px 10px;
     gap: 40px;
 
-    
-    background: #8F8F8F;
+    background: rgb(36,209,239);
+    background: linear-gradient(320deg, rgba(36,209,239,1) 0%, rgba(99,186,255,1) 100%);
 }
 
 

@@ -21,8 +21,8 @@ const InfoCardNumList = (props) => {
             <li>Fill the registration form to reserve your place.</li>
             <li>Share with friends if you want to.</li>
             <li>
-              Come to Concordia on November 15th, ready to learn and have a good
-              time.
+              Come to Autodesk's office on November 15th, ready to learn and have a good
+              time!
             </li>
           </ol>
         </div>

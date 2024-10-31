@@ -23,9 +23,6 @@ const Footer = () => {
       </div>
 
       <div className="footer_socials">
-        <a href="https://www.facebook.com/ieeeconcordia">
-          <img src={FacebookLogo} alt="Facebook Logo"></img>
-        </a>
         <a href="https://www.instagram.com/ieee_concordia/?hl=en">
           <img src={InstagramLogo} alt="Facebook Logo"></img>
         </a>

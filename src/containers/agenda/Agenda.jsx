@@ -10,29 +10,31 @@ const Agenda = () => {
       ></div>
 
       <div className="agenda_text">
-        08:00 AM: Registration + Breakfast <br />
+        08:00 AM: Registration <br />
         <div className="agenda_text_line"></div>
         08:30 AM: Opening Ceremony <br />
         <div className="agenda_text_line"></div>
-        09:00 AM: Workshop #1 <br />
+        09:00 AM: General Workshop #1 <br />
         <div className="agenda_text_line"></div>
-        10:00 AM: Workshop #2 <br />
+        09:30 AM: Challenge #1 + Challenge Workshop #1 <br />
         <div className="agenda_text_line"></div>
-        11:00 AM: Workshop #3 <br />
+        12:00 PM: Judging Challenge #1 <br />
         <div className="agenda_text_line"></div>
-        12:00 PM: Lunch <br />
+        12:30 PM: Lunch <br />
         <div className="agenda_text_line"></div>
-        01:00 PM: Workshop #4 <br />
+        01:00 PM: General Workshop #2 <br />
         <div className="agenda_text_line"></div>
-        02:00 PM: Hacking <br />
+        01:30 PM: Challenge #2 + Challenge Workshop #2 <br />
         <div className="agenda_text_line"></div>
-        03:00 PM: Competition Starts <br />
+        04:00 PM: Judging Challenge #2 <br />
         <div className="agenda_text_line"></div>
-        05:00 PM: Dinner <br />
+        04:30 PM: Autodesk Activity <br />
         <div className="agenda_text_line"></div>
-        06:00 PM: Closing Ceremony <br />
+        05:00 PM: Networking <br />
         <div className="agenda_text_line"></div>
-        6:30 PM: End <br />
+        05:30 PM: Closing Ceremony <br />
+        <div className="agenda_text_line"></div>
+        06:00 PM: End <br />
       </div>
     </div>
   );

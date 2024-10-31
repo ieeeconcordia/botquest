@@ -6,6 +6,12 @@
   width: 100%;
 }
 
+div.App {
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
 body {
   /* Large Screens > 1280px */
 
@@ -13,7 +19,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0px;
   gap: 40px;
 
   position: relative;

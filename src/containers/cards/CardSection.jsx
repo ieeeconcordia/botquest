@@ -15,14 +15,14 @@ const CardSection = () => {
             cardDetail='Only your computer!
             There is no previous knowledge needed.
             We will teach you everything you need to know. Things like programming
-            and controlling motors, reading data from sensors and much more. '
+            and controlling motors, reading data from sensors and much more!'
         />
         <InfoCards 
             imagesrc={image2}
             cardTitle='The competition'
             cardDetail='After we teach you everything you need to know,
             you will in teams of 3 or 4, put your creativity to work and
-            build a robot that will accomplish some tasks. You compete on how many tasks your robot can do.'
+            build a robot that will accomplish some tasks. You compete on how many tasks your robot can do :)'
         />
         <InfoCardNumList 
             imagesrc={image3}      
