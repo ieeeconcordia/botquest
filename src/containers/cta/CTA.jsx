@@ -1,6 +1,6 @@
 import React from "react";
 import "./cta.css";
-import { Register } from "../../components";
+import { MainButton } from "../../components";
 
 const CTA = () => {
   return (
@@ -8,11 +8,17 @@ const CTA = () => {
       <div className="cta_main">
         <h2 className="cta_main_title">Hurry up!</h2>
         <p className="cta_main_text">Places are limited</p>
-        <Register
+        <MainButton
           text="Register Now!"
           background="#63BAFF"
-          margin="10px"
+          margin="10px 0 0px 0"
           href="https://forms.gle/k3ceriUEZ3Gczz7C6"
+        />
+        <MainButton
+          text="Join the Discord!"
+          background="#7289DA"
+          margin="0 0 10px 0"
+          href="https://discord.com/invite/5rCYchE5"
         />
       </div>
 
@@ -44,7 +50,7 @@ const CTA = () => {
         <p className="cta_main_text">
           You can also check out previous Warhacks below!
         </p>
-        <Register
+        <MainButton
           text="Previous Warhacks"
           background="#C2CCD6"
           color="#000000"

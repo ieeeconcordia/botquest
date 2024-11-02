@@ -1,7 +1,7 @@
 import React from "react";
 import "./recap.css";
 import VideoPlayer from "../../components/video player/VideoPlayer";
-import { Register } from "../../components";
+import { MainButton } from "../../components";
 
 export default function Recap() {
   return (
@@ -21,7 +21,7 @@ export default function Recap() {
         Warhacks 2023 was a great success! View the article below from Vanier
         News to learn more about the event and their winners.{" "}
       </p>
-      <Register
+      <MainButton
         text="Read the Article"
         background="rgb(194, 204, 214)"
         color="black"

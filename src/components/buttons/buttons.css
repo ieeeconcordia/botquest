@@ -1,6 +1,6 @@
 @import '../../fonts.css';
 
-.register_btn_div {
+.btn_div {
     /* Auto layout */
     display: flex;
     flex-direction: row;
